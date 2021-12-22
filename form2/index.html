@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Form 2 </title>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="container">
+        <div class="part-1">
+         <form class="form" action="file.php" method="post"> 
+           <div>
+            <img src="images/i1.png"/>
+            <p style="font-style: italic;
+            font-weight: bold;font-size: 20px;">Nice to register you </p>
+           </div>
+           
+           <input type="text" name="username" placeholder="name"/>  
+           <input type="password" name="userpassword" placeholder="password"/>  
+           <input type="email" name="useremail" placeholder="email"/>  
+           <input type="submit" name="savedata" value="Send" style="cursor: pointer;background-color: rgb(177, 178, 221);padding-top: 20px;padding-left: 40%;"/>
+           <p style="margin-left: 20px;margin-top: 20px;"> Did you forget the password? <a href="#"> forget my password  </a></p>
+            <p style="margin-top: 30px;margin-left: 20px;"> 2021 &copy; designed | created By Mina Ata </p>
+        </form>
+        </div>
+        <div class="part-2">
+         <aside>
+           <img src="images/logo.png"/>
+           <section>
+             <div id="autowrite"></div>
+           </section>
+         </aside>
+        </div>
+    </div> 
+    <script src="https://unpkg.com/typeit@8.1.0/dist/index.umd.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+

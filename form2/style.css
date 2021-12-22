@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    padding:0%;
+    margin: 0%;
+}
+.container{
+  display:flex;
+  flex-direction: row;
+}
+@media screen and(min-width:600px){
+    .container{
+        display:flex;
+        flex-direction: column;
+      }
+}
+.container > div{
+ 
+    min-height: 600px;
+    height: 730px;
+    width: 100%;
+}
+.container > .part-2{
+    background-color: #CCC;
+}
+.container > .part-1{
+    background-color: rgb(228, 228, 228);
+}
+.container > .part-1 > form > div > img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.container > .part-1 > form > div > *{
+    display:inline;
+    margin-left: 30px;
+}
+.container > .part-1 > form > input{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80px;
+    font-size: 200%;
+    margin-top: 20px;
+    border:none;
+    outline:none;
+    padding-left: 20px;
+
+}
+.container > .part-1 > form > input[type="submit"]{
+    
+}
+p{
+    margin-left:20px
+}
+#autowrite{
+    font-size: 30px;
+    padding: 20px;
+}
+.part-2 > aside > img{
+    width: 100%;
+    height:400px;
+    padding: 20px;
+}
